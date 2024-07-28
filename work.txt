@@ -1,0 +1,23 @@
+Pages:
+	News
+	Team
+	Partners
+	About Us
+	Calendar
+	    <a href="news.html">News</a>
+        <a href="team.html">Team</a>
+        <a href="partners.html">Partners</a>
+        <a href="about.html">About Us</a>
+        <a href="calendar.html">Calendar</a>
+Motto:
+	T= Think Big
+	I= Innovate 
+	T= Trust Through Transparency
+	A= Act With Integrity 
+	N= Never Give Up
+	S= Synergize
+	
+richardhaataja1994@gmail.com
+
+Graphics will be done by Polish guy
+

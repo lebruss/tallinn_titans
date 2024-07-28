@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar - Tallinn Titans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .day {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fafafa;
+            text-align: center;
+        }
+        .event {
+            margin-top: 5px;
+            background-color: #3498db;
+            color: white;
+            padding: 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="news.html">News</a>
+        <a href="team.html">Team</a>
+        <a href="partners.html">Partners</a>
+        <a href="about.html">About Us</a>
+        <a href="calendar.html">Calendar</a>
+    </div>
+    <h1>Calendar</h1>
+    <div class="calendar">
+        <div class="day"><strong>Mon</strong><div class="event">No Events</div></div>
+        <div class="day"><strong>Tue</strong><div class="event">Practice</div></div>
+        <div class="day"><strong>Wed</strong><div class="event">Game vs. Tartu</div></div>
+        <div class="day"><strong>Thu</strong><div class="event">No Events</div></div>
+        <div class="day"><strong>Fri</strong><div class="event">Practice</div></div>
+        <div class="day"><strong>Sat</strong><div class="event">Game vs Bears</div></div>
+        <div class="day"><strong>Sun</strong><div class="event">Rest Day</div></div>
+        <div class="day"><strong>Mon</strong><div class="event">No Events</div></div>
+        <div class="day"><strong>Tue</strong><div class="event">Practice</div></div>
+        <div class="day"><strong>Wed</strong><div class="event">Game vs Hawks</div></div>
+        <div class="day"><strong>Thu</strong><div class="event">No Events</div></div>
+        <div class="day"><strong>Fri</strong><div class="event">Practice</div></div>
+        <div class="day"><strong>Sat</strong><div class="event">Game vs Eagles</div></div>
+        <div class="day"><strong>Sun</strong><div class="event">Rest Day</div></div>
+        <div class="day"><strong>Mon</strong><div class="event">No Events</div></div>
+        <div class="day"><strong>Tue</strong><div class="event">Practice</div></div>
+        <div class="day"><strong>Wed</strong><div class="event">Game vs Panthers</div></div>
+        <div class="day"><strong>Thu</strong><div class="event">No Events</div></div>
+        <div class="day"><strong>Fri</strong><div class="event">Practice</div></div>
+        <div class="day"><strong>Sat</strong><div class="event">Game vs Wolves</div></div>
+        <div class="day"><strong>Sun</strong><div class="event">Rest Day</div></div>
+    </div>
+</body>
+</html>
